@@ -15,6 +15,10 @@ Installation
 ------------
 Upload the files on your server and access it by URL.
 
+Demo
+------------
+You can access my website http://www.wviveiro.com.br/wpoint to see the app working
+
 Important!
 ----------
 Firefox does not support WebSQL, therefore this app does not work on Firefox.
