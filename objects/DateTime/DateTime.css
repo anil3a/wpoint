@@ -1,0 +1,55 @@
+.date-time{
+    margin-top:100px;
+    width:100%;
+    box-sizing:border-box;
+}
+
+.date-time .date,.date-time .time{
+    background:#4a74a8;
+    border:0;
+    color:#FFF;
+    display:block;
+    font-size:40px;
+    margin:40px auto;
+    text-align:center;
+    width:100%;
+    box-sizing:border-box;
+}
+
+.date-time .date::-webkit-inner-spin-button,.date-time .time::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
+
+.date-time .date::-webkit-calendar-picker-indicator {
+    -webkit-appearance: none;
+    display: none;
+}
+
+.date-time .btn-action{
+    border:solid 1px #000;
+    border-radius:5px;
+    display:block;
+    font-family:Arial;
+    font-size:18px;
+    margin:70px auto;
+    padding:20px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.date-time .btn-action.active{
+    background:#b4dfc4;
+    border:solid 1px #5a846a;
+    content:'Start Wirking';
+}
+
+.date-time .btn-action.inactive{
+    background:#e4baba;
+    border:solid 1px #674545;
+    content:'Stop Wirking';
+}

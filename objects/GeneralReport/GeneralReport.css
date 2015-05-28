@@ -1,0 +1,33 @@
+.general-report{
+    overflow:auto;
+    position:absolute;
+    left:0px; right:0px;
+    top:50px; bottom:0;
+    -webkit-overflow-scrolling: touch;    
+}
+.general-date{
+    background:#2a3954;
+    color:#FFF;
+    display:block;
+    font-size:16px;
+    font-weight:bold;
+    padding:10px;
+    text-align:center;
+ }
+.general-hour{
+    background:#acbfe0;
+    color:#273757;
+    font-size:14px;
+    margin-top:1px;
+    padding:10px;
+    text-align:left;
+}
+.general-worked-time,.general-rested-time{
+    background:#849ac4;
+    color:#273757;
+    font-size:14px;
+    font-weight:bold;
+    margin-top:1px;
+    padding:10px;
+    text-align:left;
+}

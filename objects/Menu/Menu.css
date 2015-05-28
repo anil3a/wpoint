@@ -1,0 +1,67 @@
+header {
+    background-color:#FFF;
+    margin:0;
+    padding:10px; padding-top:25px;
+    z-index:0;
+}
+
+header h1{
+    color:#4a74a8;
+    font-size:16px;
+    font-weight:bold;
+    margin:0 !important;
+    padding:0 !important;
+    text-align:center;
+}
+
+header nav.nav-right{
+    position:absolute;
+    right:10px;
+    top:25px; 
+}
+
+header nav.nav-right.refresh{
+    background:url(../../images/refresh2_3.png) no-repeat;
+    background-size:16px 16px;
+    text-indent:-9999px;
+    width:16px; height:16px;
+}
+
+header nav.nav-left{
+    position:absolute;
+    left:10px;
+    top:25px; 
+}
+
+header nav.nav-left.menu{
+    background:url(../../images/menu.png) no-repeat;
+    text-indent:-9999px;
+    width:16px; height:16px;
+}
+
+.left-menu{
+    background:#333333;
+    left:-250px;
+    position:absolute;
+    top:0; bottom:0;
+    width:250px;
+}
+
+.left-menu nav ul li{
+    border-bottom:solid 1px #3c3c3c;
+    color:#949393;
+    font-size:14px;
+    margin:5px;
+    padding:10px 5px;
+}
+
+.left-menu nav ul li.title{
+    background:#3c3c3c;
+    border:0;
+    border-radius:5px;
+    color:#6c6c6c;
+    display:block;
+    font-size:16px;
+    padding:5px;
+    text-align:center;
+}
